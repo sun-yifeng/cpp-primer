@@ -8,17 +8,63 @@
 
 #include <iostream>
 using std::cout;
+using std::endl;
 using std::string;
 
-//指针和引用和的区别
-int main(int argc, const char *agrv[]) {
-    string s("hello word!");
-    string *sp = &s;
-    //输出指针
-    cout << sp << "\n";
-    //输出引用
-    cout << *sp << "\n";
+// 指针的指针
+int main(int args, const char *argv[]) {
+    int val1 = 1024;
+    int *p1 = &val1;
+    int **p2 = &p1;
+    int *p3 = *p2;
     
+    cout << "The value of ival1\n"
+    << "direct value:" << val1 << "\n"
+    << "indirect value:" << *p1 << "\n"
+    << "doubly indirect value:" << **p2 << "\n"
+    << "p2:" << p2 << "\n"
+    << "*p3:" << *p3 << "\n"
+    << endl;
+    return 0;
+}
+
+// 指针、解引用，两者的关系
+int main3(int args, const char *argv[]) {
+    string p1("hello");
+    cout << p1 << "\t" << p1 << "\n";
+    return 0;
+    
+}
+
+/*指针（*, &）、解引用*、引用&，三者的区别*/
+int main2(int argc, const char *agrv[]) {
+    string s("hello word!");
+    //*号操作符表示sp1是一个指针变量
+    string *sp1 = &s;
+    //输出指针
+    cout << "输出指针：" << sp1 << "\n";
+    //输出引用
+    cout << "输出指针：" << *sp1 << "\n";
+    
+    return 0;
+}
+
+//4.2.2.4指针可以取得值
+int main1(int argc, const char *agrv[]) {
+    int val1 = 1024;
+    int *p1 = 0; // TODO 指针保存为0，表示不指向任何值，后面使用该指针（打印）程序崩溃
+    //cout << p1 << "\t" << *p1 <<"\n";
+    
+    int *p2 = &val1;
+    cout << p2 << "\t" << *p2 << "\n";
+    
+    int *p3; // 指针为初始化，运行打印*p3则程序崩溃
+    //cout << p3 << "\t" << *p3 << "\n";
+    
+    p1 = p2;
+    cout << p1 << "\t" << p2 << "\n";
+    p2 = 0;
+    cout << p1 << "\t" << p2 << "\n";
     return 0;
 }
 
