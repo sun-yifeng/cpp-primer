@@ -52,7 +52,7 @@ int main2(int argc, const char *agrv[]) {
 //4.2.2.4指针可以取得值
 int main1(int argc, const char *agrv[]) {
     int val1 = 1024;
-    int *p1 = 0; // TODO 指针保存为0，表示不指向任何值，后面使用该指针（打印）程序崩溃
+    int *p1 = 0; // TODO 指针保存为0，表示不指向任何值（未初始化），后面使用该指针（打印）程序崩溃
     //cout << p1 << "\t" << *p1 <<"\n";
     
     int *p2 = &val1;
