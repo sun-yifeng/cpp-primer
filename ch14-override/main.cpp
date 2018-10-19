@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  reference
+//  ch14-override
 //
-//  Created by sunyifeng on 2018/10/17.
+//  Created by sunyifeng on 2018/10/19.
 //  Copyright © 2018 sunyifeng. All rights reserved.
 //
 
