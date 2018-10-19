@@ -12,7 +12,7 @@ using std::endl;
 using std::string;
 
 // 指针的指针
-int main(int args, const char *argv[]) {
+int _main(int args, const char *argv[]) {
     int val1 = 1024;
     int *p1 = &val1;
     int **p2 = &p1;
@@ -49,16 +49,35 @@ int main2(int argc, const char *agrv[]) {
     return 0;
 }
 
-//4.2.2.4指针可以取得值
-int main1(int argc, const char *agrv[]) {
+/*4.2.2.4指针可以取得值
+  1、指针初始化的时候，赋值为0，则指针有地址0x0，无对象内容，例如：
+    int *p = 0;
+    这种情况下，p的地址：0x0，p的内容：(lldb)，调用*p，程序运行到此行会崩溃
+  2、指针初始化的时候，赋值非0，指针再此赋值为0，则程序不会崩溃，例如：
+    int v = 1;
+    int *p = &v;
+        *p = 0 //再次赋值为0
+    这种情况下，p的地址：0x7ffeefbff598，p1的内容：0
+ */
+int main(int argc, const char *agrv[]) {
     int val1 = 1024;
+    int val2 = 1;
+    
+    //1、指针初始化的时候，赋值为零：
     int *p1 = 0; // TODO 指针保存为0，表示不指向任何值（未初始化），后面使用该指针（打印）程序崩溃
-    //cout << p1 << "\t" << *p1 <<"\n";
+    
+    //2、指针初始化的时候，赋值引用：
+    //int *p1 = &val2;
+    //    *p1 = 0;
+    
+    cout << "p1的地址：" << p1 <<"\n"
+         << "p1的内容：" << *p1 <<"\n"
+         << endl;
     
     int *p2 = &val1;
     cout << p2 << "\t" << *p2 << "\n";
     
-    int *p3; // 指针为初始化，运行打印*p3则程序崩溃
+    //int *p3; // 指针为初始化，运行打印*p3则程序崩溃
     //cout << p3 << "\t" << *p3 << "\n";
     
     p1 = p2;
@@ -69,7 +88,7 @@ int main1(int argc, const char *agrv[]) {
 }
 
 //验证指针
-int _main(int argc, const char *argv[]) {
+int main1(int argc, const char *argv[]) {
     
     // 定义两个变量
     int ival1 = 1024, ival2 = 2048;
