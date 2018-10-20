@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/sunyifeng/xcode/HelloWord/cpp-primer/cpp-primer.xcodeproj">
+      location = "self:/Users/sunyifeng/xcode/cpp-primer/cpp-primer.xcodeproj">
    </FileRef>
 </Workspace>

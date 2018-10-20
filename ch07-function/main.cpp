@@ -10,6 +10,7 @@
 using std::cout;
 using std::endl;
 
+/****************************** 栗子1 ***********************************/
 /*函数参数为指针类型：
   1、指针*p相当于java中的方法参数传引用；
   2、指针的内容是可以改变的，但是指针的地址不变；
@@ -23,7 +24,7 @@ void reset(int *ip){
     cout << "赋值之后 *ip:" << *ip << " ip:" << ip << "\n";
 }
 //调用指针参数
-int main(int argc, const char * argv[]) {
+int main1(int argc, const char * argv[]) {
     int i = 2;
     int *p = &i;
     cout << "i:" << *p << " p:" << p << '\n';
@@ -31,3 +32,31 @@ int main(int argc, const char * argv[]) {
     cout << "i:" << *p << " p:" << p << endl;
     return 0;
 }
+
+/****************************** 栗子2 ***********************************/
+void swap(int *&v1, int *&v2){
+    int *tmp = v2;
+        v2 = v1;
+        v1 = tmp;
+}
+
+int main(){
+    int i = 10;
+    int j = 20;
+    int *pi = &i;
+    int *pj = &j;
+    cout << "before swap, pi:" << *pi << ", pj:" << *pj << endl;
+    swap(pi, pj);
+    cout << "after  swap, pi:" << *pi << ", pj:" << *pj << endl;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+

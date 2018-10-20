@@ -6,113 +6,242 @@
 	<dict>
 		<key>array.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
 		<key>ch02-variable.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
 		<key>ch03-std.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
 		<key>ch03-vector.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
 		<key>ch05-expression.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
 		<key>ch07-statement.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
 		<key>ch08-io.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
 		<key>ch12-class.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
 		<key>ch13-copy.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
 		<key>ch14-override.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
 		<key>ch15-opp.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
 		<key>ch16-template.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
 		<key>ch17-large-scale.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
 		<key>ch18-tools.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>cpp-primer 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>cpp-primer.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>function.xcscheme</key>
+		<key>function.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
 		<key>iostream.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
 		<key>pointer.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
 		<key>reference.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
 		<key>string.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
 		<key>vector.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4D5439D92179F6C0007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D5439E42179F6F4007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D5439EF2179F79A007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D5439FA2179F7DE007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A052179F867007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A112179FBFD007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A1C2179FCFE007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A272179FD2A007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A322179FD43007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A3D2179FD5B007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A482179FDE5007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A532179FEAD007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D543A5E2179FF5A007FE5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D72DE5D2176EB2200813EE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D72DE6B2176EB4700813EE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4D72DE762176EB7F00813EE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D72DE812176EE8A00813EE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -123,6 +252,21 @@
 			<true/>
 		</dict>
 		<key>4D72DE972176FA8300813EE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D9B7C81217728FA00994FBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D9B7C8C2177365F00994FBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D9B7C97217989C600994FBC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

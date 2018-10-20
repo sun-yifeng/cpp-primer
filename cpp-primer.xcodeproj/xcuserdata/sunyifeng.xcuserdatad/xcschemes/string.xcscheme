@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D72DE972176FA8300813EE0"
-               BuildableName = "ch02-reference"
-               BlueprintName = "ch02-reference"
+               BlueprintIdentifier = "4D72DE812176EE8A00813EE0"
+               BuildableName = "ch10-map"
+               BlueprintName = "ch10-map"
                ReferencedContainer = "container:cpp-primer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72DE972176FA8300813EE0"
-            BuildableName = "ch02-reference"
-            BlueprintName = "ch02-reference"
+            BlueprintIdentifier = "4D72DE812176EE8A00813EE0"
+            BuildableName = "ch10-map"
+            BlueprintName = "ch10-map"
             ReferencedContainer = "container:cpp-primer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72DE972176FA8300813EE0"
-            BuildableName = "ch02-reference"
-            BlueprintName = "ch02-reference"
+            BlueprintIdentifier = "4D72DE812176EE8A00813EE0"
+            BuildableName = "ch10-map"
+            BlueprintName = "ch10-map"
             ReferencedContainer = "container:cpp-primer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72DE972176FA8300813EE0"
-            BuildableName = "ch02-reference"
-            BlueprintName = "ch02-reference"
+            BlueprintIdentifier = "4D72DE812176EE8A00813EE0"
+            BuildableName = "ch10-map"
+            BlueprintName = "ch10-map"
             ReferencedContainer = "container:cpp-primer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

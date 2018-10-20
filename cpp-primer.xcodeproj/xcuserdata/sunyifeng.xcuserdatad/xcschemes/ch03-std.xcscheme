@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D72DE972176FA8300813EE0"
-               BuildableName = "ch02-reference"
-               BlueprintName = "ch02-reference"
+               BlueprintIdentifier = "4D5439E42179F6F4007FE5E0"
+               BuildableName = "ch03-string"
+               BlueprintName = "ch03-string"
                ReferencedContainer = "container:cpp-primer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72DE972176FA8300813EE0"
-            BuildableName = "ch02-reference"
-            BlueprintName = "ch02-reference"
+            BlueprintIdentifier = "4D5439E42179F6F4007FE5E0"
+            BuildableName = "ch03-string"
+            BlueprintName = "ch03-string"
             ReferencedContainer = "container:cpp-primer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72DE972176FA8300813EE0"
-            BuildableName = "ch02-reference"
-            BlueprintName = "ch02-reference"
+            BlueprintIdentifier = "4D5439E42179F6F4007FE5E0"
+            BuildableName = "ch03-string"
+            BlueprintName = "ch03-string"
             ReferencedContainer = "container:cpp-primer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72DE972176FA8300813EE0"
-            BuildableName = "ch02-reference"
-            BlueprintName = "ch02-reference"
+            BlueprintIdentifier = "4D5439E42179F6F4007FE5E0"
+            BuildableName = "ch03-string"
+            BlueprintName = "ch03-string"
             ReferencedContainer = "container:cpp-primer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
